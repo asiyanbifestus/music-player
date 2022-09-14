@@ -133,8 +133,9 @@ input.volume-slider::-webkit-slider-thumb{
     padding: 10px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 960px) {
   body{
-      width: 500px;
+      width: auto;
+      height: auto;
   }
 }
