@@ -133,28 +133,16 @@ input.volume-slider::-webkit-slider-thumb{
     padding: 10px;
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 896px) {
 .wrapper{
       width: 300px;
-      height: 90vh;
+      height: 70vh;
   }
 }
+@media screen and (max-width: 667px) {
+    .wrapper{
+          width: 300px;
+          height: 90vh;
+      }
+    }
 
-@media screen and (max-width: 900px) {
-  .wrapper{
-        width: 300px;
-        height: 70vh;
-    }
-  }
-  @media screen and (max-width: 1100px) {
-    .wrapper{
-          width: 300px;
-          height: 100vh;
-      }
-    }
-  @media screen and (max-width: 1200px) {
-    .wrapper{
-          width: 300px;
-          height: 50vh;
-      }
-    }
