@@ -132,3 +132,9 @@ input.volume-slider::-webkit-slider-thumb{
     border-radius: 50px;
     padding: 10px;
 }
+
+@media screen and (max-width: 900px) {
+  body{
+      width: 500px;
+  }
+}
